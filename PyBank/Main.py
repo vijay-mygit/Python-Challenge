@@ -4,7 +4,6 @@ import csv
 bank_csv = os.path.join('C:/Users/vijay/OneDrive/Documents/GitHub/Python-Challenge/PyBank/03-Python_Instructions_PyBank_Resources_budget_data.csv')
 month_year = bank_csv[0]
 profit_loss = bank_csv[1]
- 
 total_months = 0
 total_profitloss = 0
 avg_profitloss = 0
@@ -28,6 +27,8 @@ print("--------------------------------------------")
 print(f"Total Months: {total_months}")
 print(f"Total : {total_profitloss}")
 print(f"Average Change : {avg_profitloss}")
+
+#Creating Output Text File
 
 output_file = os.path.join('PyBank_output.txt')
 with open(output_file, 'w') as output:
