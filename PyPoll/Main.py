@@ -1,4 +1,4 @@
-#PyPoll
+#Python code to solve the PyPoll challenge
 import os
 import csv
 poll_csv = os.path.join("C:/Users/vijay/OneDrive/Documents/GitHub/Python-Challenge/PyPoll/03-Python_Instructions_PyPoll_Resources_election_data.csv")
